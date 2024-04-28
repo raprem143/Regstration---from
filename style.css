@@ -1,0 +1,38 @@
+.container{
+    height: 50px;
+    width: 50px;
+}
+
+form{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.from-group{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color:#007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: yellow;
+    background-color: black;
+}
